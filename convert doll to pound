@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main ()
+{
+    float dol, pou;
+    printf("Enter the amount of dollar: ");
+    scanf("%f", &dol);
+    pou=dol*0.75;
+    printf("%f dollar = %f pound ",dol,pou);
+}
